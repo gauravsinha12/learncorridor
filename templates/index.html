@@ -1,0 +1,155 @@
+{% extends 'base.html' %}
+{% block title %}Home
+{% endblock title %}
+{% block body %}
+<div class="container-fluid my-4 mt-3">
+  <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-interval="8000">
+        <img src="/static/bache.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h5 class="animate__animated animate__bounceInDown" style="animation-delay:1s">LEARN</h5>
+          <p class="animate__animated animate__bounceInUp" style="animation-delay:2s">Learn about the various courses
+            provided with their future scope determining and documenting a list of specific course goals and features.
+          </p>
+          <p class="animate__animated animate__slideInUp" style="animation-delay:3s"><a href="/learn">More Info</a></p>
+        </div>
+      </div>
+      <div class="carousel-item" data-interval="7000">
+        <img src="/static/money2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h5 class="animate__animated animate__bounceInDown" style="animation-delay:1s">EARN</h5>
+          <p class="animate__animated animate__bounceInUp" style="animation-delay:2s">Know more about the various
+            opportunities of internships, freelancing and facets of earning.
+            provided with their future scope determining and documenting a list of specific course goals and features.
+          </p>
+          <p class="animate__animated animate__slideInUp" style="animation-delay:3s"><a href="/earn">More Info</a></p>
+        </div>
+      </div>
+      <div class="carousel-item" data-interval="7000">>
+        <img src="/static/graphic.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h5 class="animate__animated animate__flipInX" style="animation-delay:1s">GROW</h5>
+          <p class="animate__animated animate__flipInY" style="animation-delay:2s">Get all the information about the
+            events, webinars, competitions and relevant proceedings which are conducted to upgrade your performance
+            growth.</p>
+          <p class="animate__animated animate__zoomIn" style="animation-delay:3s"><a href="/grow">More Info</a></p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <div class="container-fluid">
+      <svg width="70px" height="76px" viewBox="0 0 16 16" style="color:white;" class="bi bi-chevron-double-down m"
+        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+        <path fill-rule="evenodd"
+          d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+      </svg>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+      <div class="card mb-3 ml-auto" style="max-width: 1150px; margin-top: 40px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <a href="/digital"><img src="/static/internship.jpg" class="card-img" alt="..."></a>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><a href="/digital">Digital Marketing</a></h5>
+              <p class="card-text">Marketing skills, building a firm foundation of marketing skills digitally.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+      <div class="card mb-3" style="max-width: 1150px; margin-top: 40px">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <a href="/graphic"><img src="/static/graphic3.jpg" class="card-img" alt="..."></a>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><a href="/graphic">Graphic Designing</a></h5>
+              <p class="card-text">The course helps to gear up your skills and polishings your designing views,visual
+                thinking, composition using tools like-Adobe Photoshop and Illustrator, providing high scope for project
+                based environment.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+      <div class="card mb-3 ml-auto" style="max-width: 1150px; margin-top: 40px">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <a href="/full"><img src="/static/cooode.jpg" class="card-img" alt="..."></a>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><a href="/full">Full Stack Development</h5></a>
+              <p class="card-text">This course covers all aspects frontend, backend and database skills to provide you
+                with
+                overall package covering all the spheres.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+    <h1 class="contacttext"
+      style="font-size: 40px;margin-top: 45px;font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center;color:white;">
+      CONTACT TO US</h1>
+    <div class="container">
+      <form method="post" action="/contact">
+        {% csrf_token %}
+        <div class="form-group">
+          <label for="name" style="color:white;">Name</label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1" style="color:white;">Email address</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="phone" style="color:white;">Phone Number</label>
+          <input type="phone" class="form-control" id="phone" name="phone" placeholder="Enter Your Phone Number">
+        </div>
+        <div class="form-group">
+          <label for="desc" style="color:white;">Feedback , Suggestions Or Any Queries.</label>
+          <textarea class="form-control" id="desc" name="desc" rows="3"></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+  <div class="container-fluid mt-4 col-md-8 fa-text-width:20px">
+    <h1 style="font-size:45px;font-weight:bold;font-family:cursive;color:white;">Connect With Us :-</h1>
+    <a href="https://www.facebook.com/LEarn-Corridor-118931766492112/" class="fa fa-facebook ml-4 mt-5"></a>
+    <a href="https://twitter.com/CorridorLearn" class="fa fa-twitter ml-4 mt-5"></a>
+    <a href="https://instagram.com/learn_corridor?igshid=14zt39c3bpr0d" class="fa fa-instagram ml-4 mt-5"></a>
+    <a href="https://www.linkedin.com/company/learn-corridor" class="fa fa-linkedin ml-4 mt-5"></a>
+  </div>
+  <div class="container-fluid ml-auto mt-4 mb-2">
+    <div class="card" style="width: 100%;height: 225px; background-color:lightblue;">
+      <div class="card-body">
+        <a class="navbar-brand" href="/home">
+          <img src="/static/rsz_logo.png" width="270" height="50" class="d-inline-block align-top" loading="lazy">
+        </a>
+      </div>
+    </div>
+  </div>
+  {% endblock body %}

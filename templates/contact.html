@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% block title %}contact{% endblock title %}
+{% block body %}
+<div class="container-fluid">
+  <img src="/static/contact.jpg" class="img-fluid" alt="...">
+</div>
+<div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+  <h1 class="contacttext"
+    style="font-size: 54px;margin-top: 45px;font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center;color:white;">
+    CONTACT TO US</h1>
+  <div class="container mt-5">
+    <form action="/contact" method="post">
+      {% csrf_token %}
+      <div class="form-group">
+        <label for="name" style="color:white;">Name</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+      </div>
+      <div class="form-group">
+        <label for="email" style="color:white;">Email address</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+      </div>
+      <div class="form-group">
+        <label for="phone" style="color:white;">Phone Number</label>
+        <input type="phone" class="form-control" id="phone" name="phone" placeholder="Enter Your Phone Number">
+      </div>
+      <div class="form-group">
+        <label for="desc" style="color:white;">Feedback , Suggestions Or Any Queries.</label>
+        <textarea class="form-control" id="desc" name="desc" rows="3"></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+<div class="container-fluid mt-4 mb-4 col-md-8 fa-text-width:20px">
+  <h1 style="font-size:45px;font-weight:bold;font-family:cursive;color:white;">Connect With Us :-</h1>
+  <a href="https://www.facebook.com/LEarn-Corridor-118931766492112/" class="fa fa-facebook ml-4 mt-5"></a>
+  <a href="https://twitter.com/CorridorLearn" class="fa fa-twitter ml-4 mt-5"></a>
+  <a href="https://instagram.com/learn_corridor?igshid=14zt39c3bpr0d" class="fa fa-instagram ml-4 mt-5"></a>
+  <a href="https://www.linkedin.com/company/learn-corridor" class="fa fa-linkedin ml-4 mt-5"></a>
+</div>
+<div class="container-fluid ml-auto mt-4 mb-2">
+  <div class="card" style="width: 100%;height: 225px; background-color:lightblue;">
+    <div class="card-body">
+      <a class="navbar-brand" href="/home">
+        <img src="/static/rsz_logo.png" width="270" height="50" class="d-inline-block align-top" loading="lazy">
+      </a>
+      <p class="card-text"></p>
+      <a href="#" class="btn btn-primary">footer</a>
+    </div>
+  </div>
+</div>
+{% endblock body %}

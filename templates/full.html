@@ -1,0 +1,171 @@
+{% extends 'base.html' %}
+{% block title %}
+Full Stack Development
+{% endblock title %}
+{% block body %}
+<div class="container mt-4">
+  <img src="/static/full.jpg" class="img-fluid" alt="...">
+</div>
+<div class="container">
+<a href = '/checkout'><button type="button" class="btn btn-primary btn-lg my-4 col-md-12 text-center">Enroll Now In Rs.3999 only</button></a>
+</div>
+<div data-aos="fade-up" data-aos-duration="3000">
+  <div class="container mt-4">
+    <h1 style="text-align:center;color:white;">Full Stack Course High Level Overview</h1>
+    <p class="text-center" id="learnn" style="color:white;">A Full Stack Engineer (FSE) is responsible for developing
+      end to end web application. FSE must have knowledge in all stages of development: – Problem analysis, solution
+      design, architecture design, implementation of UI, implementation of service layer & DB layer, testing and
+      deployment.
+    </p>
+  </div>
+</div>
+  <div class="container mt-3">
+    <div class="accordion" id="accordionExample">
+      <div class="card"  style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0" style="font-family:cursive;font-weight:100;;">
+            <a class="btn btn-block text-left" type="button" data-toggle="collapse"
+              data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              1. Java Basics
+            </a>
+          </h2>
+        </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body"  style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            1.  Introduction to Java .
+          </div>
+          <div class="card-body"  style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            2.  Data types, Class, Object, Method, Loops, Array, Collections, Exception Handling, Multi Threading. 
+          </div>
+          <div class="card-body"  style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            3.  Object Oriented programming.
+          </div>
+        </div>
+      </div>
+      <div class="card" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0" >
+            <a class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              2. Spring framework
+            </a>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            1. Introduction To spring.
+          </div>
+          <div class="card-body" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            2. Spring dependency Injection.
+          </div>
+          <div class="card-body" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            3. Inversion of control.
+          </div>
+          <div class="card-body" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            4. Spring MVC.
+          </div>
+          <div class="card-body" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            5. Spring MVC.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            <a class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              3. RESTful APIs to build MicroServices based applications.
+            </a>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            1. Introduction to Monolithic Services.
+          </div>
+          <div class="card-body" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            2. Introduction to MircoServices.
+          </div>
+          <div class="card-body" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            3. Introduction to Web services.
+          </div>
+          <div class="card-body" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            4. Creating RESTful Web services with SpringBoot.
+          </div>
+          <div class="card-body" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            4. Introduction to JPA (Database Layer).
+          </div>
+          <div class="card-body" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            5. RESTful Web services with JPA.
+          </div>
+          <div class="card-body" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            6. RESTful Web services best Practice.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            <a class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              3. Central Repository: Team Collaboration .
+            </a>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            1. Git Introduction
+               Quick Introduction to gitlab/github.
+          </div>
+          <div class="card-body" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            2. Git Hands on.
+              Create repository.
+              Clone a repository.
+              Create branch in repository.
+              Push to repository.
+              Raise pull request.
+              Merge to master branch.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0" >
+            <a class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              4. Angular.
+            </a>
+          </h2>
+        </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <a class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            3. Project Wokshop.
+          </a>
+        </h2>
+      </div>
+      </div>
+  </div>
+</div>
+<div class="container-fluid mt-4 mb-4 col-md-8 fa-text-width:20px">
+  <h1 style="font-size:45px;font-weight:bold;font-family:cursive;color:white;">Connect With Us :-</h1>
+  <a href="https://www.facebook.com/LEarn-Corridor-118931766492112/" class="fa fa-facebook ml-4 mt-5"></a>
+  <a href="https://twitter.com/CorridorLearn" class="fa fa-twitter ml-4 mt-5"></a>
+  <a href="https://instagram.com/learn_corridor?igshid=14zt39c3bpr0d" class="fa fa-instagram ml-4 mt-5"></a>
+  <a href="https://www.linkedin.com/company/learn-corridor" class="fa fa-linkedin ml-4 mt-5"></a>
+</div>
+</div>
+<div class="container-fluid ml-auto mt-4 mb-2">
+  <div class="card" style="width: 100%;height: 225px; background-color:lightblue;">
+    <div class="card-body">
+      <a class="navbar-brand" href="/home">
+        <img src="/static/rsz_logo.png" width="270" height="50" class="d-inline-block align-top" loading="lazy">
+      </a>
+      <p class="card-text"></p>
+      <a href="#" class="btn btn-primary">footer</a>
+    </div>
+  </div>
+</div>
+{% endblock body %}

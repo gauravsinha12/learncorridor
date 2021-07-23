@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+.carousel-caption{
+    bottom: 200px;
+}
+#carouselExampleInterval{
+    margin-top: 80px;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: 'Lemonada', cursive;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.9;
+    font-family: cursive;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    background: #226262;
+    padding: 10px 30px;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.925);
+    margin-top: 15px;
+}
+.navbar-nav a{
+    font-family: 'Lemonada', cursive;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(255, 255, 255, 0.911);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(0, 0, 0);
+}
+.navbar-nav{
+    text-align: center;
+}
+.nav-link{
+    padding: 2rem 1rem;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(250, 20, 20);
+    font-size: 30px;
+}
+.w-100{
+    height: 100vh;
+}
+@media only screen and (max-width: 767px){
+    .navbar-nav.ml-auto{
+        background: white;
+    }
+    .navbar-toggler{
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+        background-color: white;
+    }
+}
+.learn{
+    margin-top: 60px;
+    margin-left: 550px;
+}
+#texte{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.img-fluid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    max-width: 100%;
+    height: auto;
+    
+  }
+  #ti{
+      text-align: center;
+  }
+.sunmeribaat{
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: inherit;
+    text-align: center;
+    text-transform: uppercase;
+}
+body{
+    margin-top: 20px;
+    padding: 0;
+    background-color: #1a202c;
+  }
+  .arrow{
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  }
+  .arrow span{
+      display: block;
+      width: 30px;
+      height: 30px;
+      border-bottom: 5px solid #06A8FF;
+      border-right: 5px solid #06A8FF;
+      transform: rotate(45deg);
+      margin: -10px;
+      animation: animate 2s infinite;
+  }
+  .arrow span:nth-child(2){
+      animation-delay: -0.2s;
+  }
+  .arrow span:nth-child(3){
+      animation-delay: -0.4s;
+  }
+  @keyframes animate {
+      0%{
+          opacity: 0;
+          transform: rotate(45deg) translate(-20px,-20px);
+      }
+      50%{
+          opacity: 1;
+      }
+      100%{
+          opacity: 0;
+          transform: rotate(45deg) translate(20px,20px);
+      }
+  }
+  .bi{
+    display: block;
+    margin-left: 47%;
+  }
+  #ani{
+      margin-left: 0px;
+      margin-right: auto;
+      margin-top: 50px;
+      max-width: 100%;
+      height: auto;
+      
+  }
+  .topic{
+      text-align: center;
+      font-size: 40px;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  .content{
+      font-size: 15px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-variant: normal;
+      margin-left: 50%;
+     margin-right: auto;
+  }
+  #learnn{
+      font-size: 25px;
+      font-family: 'Courier New', Courier, monospace;
+      margin-top: 35px;
+      font-weight: bold;
+      text-align: justify;
+  }
+    .fa {
+        padding: 20px;
+        font-size: 40px;
+        width: 60px;
+        text-align: center;
+        text-decoration: none;
+      }
+      
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.5;
+      }
+      
+      /* Set a specific color for each brand */
+      
+      /* Facebook */
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-instagram {
+        background: #d63333;
+        color: white;
+      }
